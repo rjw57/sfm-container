@@ -10,7 +10,7 @@ RUN apt-get -y update && apt-get -y install \
 	libxxf86vm1 libxxf86vm1 libxxf86vm-dev x11proto-xf86vidmode-dev \
 	libxrandr-dev libatlas-base-dev libgoogle-glog-dev libeigen3-dev \
 	libgflags-dev libsuitesparse-dev libcgal-dev subversion \
-	libboost-iostreams-dev libopencv-dev libglu-dev
+	libboost-iostreams-dev libopencv-dev libglu-dev graphviz
 
 ADD install_ceres.sh .
 RUN ./install_ceres.sh
