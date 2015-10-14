@@ -19,5 +19,6 @@ mkdir /opt/openMVS
 cd /opt/openMVS
 cmake -DCMAKE_BUILD_TYPE=Release -DVCG_DIR=${_work_dir}/vcglib ${_work_dir}/openMVS
 make
-cd ..
+rm -r ${_work_dir}/openMVS ${_work_dir}/vcglib
+
 
