@@ -18,5 +18,6 @@ RUN ./install_ceres.sh
 ADD install_openmvg.sh .
 RUN ./install_openmvg.sh
 
-ADD install_openmvs.sh openmvs-hacks.patch /
-RUN ./install_openmvs.sh
+ADD install_mve.sh .
+RUN ./install_mve.sh
+
